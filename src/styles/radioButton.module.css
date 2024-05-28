@@ -1,0 +1,24 @@
+.radioButton {
+  display: inline-block;
+  margin: 20px 5px;
+}
+
+.label {
+  cursor: pointer;
+}
+
+.fieldset {
+  border: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.label {
+  cursor: pointer;
+  font-size: 40px;
+  margin: 0 4px;
+}
+.label:focus-within {
+  outline: auto;
+}
