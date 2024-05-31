@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Layout } from "../layouts";
 import styles from "../styles/sendForm.module.css";
-import "../styles/icons.css";
 
 const sendForm = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -18,7 +17,7 @@ const sendForm = () => {
   }, []);
 
   return (
-    <Layout siteTitle="Envio">
+    <Layout siteTitle="Envio do formulário">
       <div className={styles.container}>
         <div className={styles.header}>
           <img src="./images/logo-serasa.svg" alt="logo serasa"></img>
