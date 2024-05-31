@@ -1,10 +1,11 @@
 .container {
   left: 0;
-  top: 0;
   margin: 0 auto;
   padding: 0 32px;
+  top: 0;
   width: 360px;
 }
+
 .header {
   align-items: center;
   display: flex;
@@ -12,29 +13,27 @@
   justify-content: center;
   margin-top: 100px;
 }
-.hidden {
-  display: none;
-}
-.show {
-  display: initial;
-}
+
 .icon {
   color: #fff;
   display: flex;
-  justify-content: center;
   font-size: 48px;
+  justify-content: center;
   margin: 146px 0 40px;
   min-height: 60px;
 }
+
 .message {
   text-align: center;
   font-family: "Roboto";
   color: #fff;
 }
+
 .title {
   font-size: 24px;
   margin-bottom: 8px;
 }
+
 .text {
   font-size: 14px;
 }
