@@ -1,16 +1,26 @@
 body {
   margin: 0;
 }
+
 .sendFormBody {
   background-color: #fe008a;
 }
+
 .srOnly {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
   position: absolute;
   width: 1px;
-  height: 1px;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
   white-space: nowrap;
-  border: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: initial;
 }

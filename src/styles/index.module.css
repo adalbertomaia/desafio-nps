@@ -5,6 +5,7 @@
   padding: 0 32px;
   width: 360px;
 }
+
 .header {
   align-items: center;
   background-color: #fe008a;
@@ -12,6 +13,7 @@
   height: 124px;
   justify-content: center;
 }
+
 .header__image {
   height: 60px;
   width: 60px;
@@ -48,6 +50,12 @@
   width: -webkit-fill-available;
 }
 
+.form__input--error,
+.form__input--error:focus{
+  border-color:#cf0000;
+  outline-color: #cf0000;
+}
+
 .button {
   background-color: #fe008a;
   border: none;
@@ -60,4 +68,16 @@
 .button--disabled {
   background-color: #fe008a;
   filter: brightness(70%);
+}
+
+.name--error {
+  color: #cf0000;
+  display: block;
+  left: 0;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 0 8px;
+  position: relative;
+  text-align: left;
+  top: -30px;
 }
